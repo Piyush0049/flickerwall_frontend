@@ -6,7 +6,6 @@ import logo from "../logo.png";
 import '../App.css';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios"
-const dotenv = require("dotenv");
 
 function App() {
 
