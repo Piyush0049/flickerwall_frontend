@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 
 function App() {
 
-    const SITE = "http://localhost:8000"
+    const SITE = "https://flicker-backend.onrender.com"
 
     const navigate = useNavigate();
     const [orgnumber] = useState(localStorage.getItem("orgnumber"));

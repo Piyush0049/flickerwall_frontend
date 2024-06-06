@@ -10,7 +10,7 @@ const dotenv = require("dotenv");
 
 function App() {
 
-    const SITE = "http://localhost:8000"
+    const SITE = "https://flicker-backend.onrender.com"
 
     const navigate = useNavigate();
     const [showOrgCode, setShowOrgCode] = useState(false);
