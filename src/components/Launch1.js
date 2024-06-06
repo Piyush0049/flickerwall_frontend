@@ -35,7 +35,7 @@ function App() {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        minHeight: '100vh',
+        minHeight: '100%',
         height: "auto",
         background: 'linear-gradient(60deg, #BFFFFC, #57FCF5)',
         backgroundColor: "black",
@@ -99,7 +99,7 @@ function App() {
 
     return (
         <Container style={containerStyle}>
-            <div style={{ height: "200px" }}>
+            <div style={{ height: "200px", paddingTop : "80px" }}>
                 <img src={logo} alt="i" className="logo" />
             </div>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
