@@ -20,7 +20,7 @@ function App() {
                 const header = {
                     "Content-Type": "application/json"
                 };
-                const response = await axios.post(`${process.env.SITE}/screens/findorgcodeonly`, { orgnumber }, { headers: header });
+                const response = await axios.post(`${SITE}/screens/findorgcodeonly`, { orgnumber }, { headers: header });
                 if (response.data.success) {
                     console.log("Organization code verified:", response.data);
                 } else {
